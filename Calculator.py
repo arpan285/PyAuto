@@ -9,7 +9,7 @@ class Cal:
     def subs(self):
         print("ANS=",self.x-self.y)
 
-num = int(input("Enter a number: "))
+num = int(input("Enter first number: "))
 num1 = int(input("Enter another number: "))
 
 obj = Cal(num,num1)
