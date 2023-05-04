@@ -4,10 +4,10 @@ class Cal:
         self.x = a
         self.y = b
     def addition(self):
-        print("ANS=",self.x+self.y)
+        print("Addition ANS=",self.x+self.y)
 
     def subs(self):
-        print("ANS=",self.x-self.y)
+        print("Substraction ANS=",self.x-self.y)
 
 num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
