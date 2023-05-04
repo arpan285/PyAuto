@@ -9,9 +9,9 @@ class Cal:
     def subs(self):
         print("ANS=",self.x-self.y)
 
-num = int(input("Enter first number: "))
-num1 = int(input("Enter another number: "))
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
 
-obj = Cal(num,num1)
+obj = Cal(num1,num2)
 obj.addition()
 obj.subs()
